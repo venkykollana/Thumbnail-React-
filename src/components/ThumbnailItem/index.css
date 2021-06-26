@@ -1,0 +1,25 @@
+/* Write your code here. */
+.thumbnailImg {
+  width: 250px;
+  opacity: 0.5;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.thumbnailButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .thumbnailImg {
+    width: 350px;
+    opacity: 0.5;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .thumbnailButton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
